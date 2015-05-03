@@ -1,11 +1,9 @@
 LANDREST Tool
 ====================
 
-LANDREST is a land degradation model that can be used to spatially identify locations in an area of interest that are in risk of being degraded. It represents interactions between biophysical and socio-economic factors that contribute to degradation.
+LANDREST is a land degradation model that can be used to spatially identify locations in an area of interest that are in risk of being degraded. It run as an ArcGIS tool based on the ModelBuilder concepts. The general structure behind it is inspired by the CORINE model with variables derived using the USLE.
 
-It was developed to run as an ArcGIS tool based on the ModelBuilder concepts. The general structure behind it is inspired by the CORINE model with variables derived using the USLE. It is flexible enough to accommodate more variables beyond the number and types it was initially designed to handle.
-
-The LANDREST version 0.1 has been thoroughly tested using spatial data captured in Babati district, Tanzania. It offers the following products to address soil degradation:
+LANDREST offers the following products to address soil degradation:
 
 * **Potential soil erosion risk (PSER):** This is the typical vulnerability of the soil to water erosion without taking into account vegetation cover or land use.
 * **Actual soil erosion risk (ASER):** Current risk of erosion under the present land use and vegetation cover conditions. 
