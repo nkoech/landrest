@@ -35,6 +35,8 @@ This tool has been successfully tested in ArcMap 10.0/10.1/10.2.
 
 	![LandREST tool window](https://github.com/nkoech/landrest/blob/master/img/landrest_window.png)
 
+## Other Important Downloads
+
 Now you have it. Other downloads include:
 
 * [LANDREST Data - ZIP](https://github.com/nkoech/landrest/releases/download/v0.1/LANDREST_Data.zip)
