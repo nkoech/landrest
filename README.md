@@ -21,50 +21,38 @@ This tool has been fully test and works flawlessly in ArcMap 10.0/10.1/10.2.
 
 4. Open ArcMap, and click Geoprocessing > ArcToolbox.
 
-![Geoprocessing > ArcToolbox](https://github.com/nkoech/landrest/blob/master/img/gp_arctoolbox.png)
+	![Geoprocessing > ArcToolbox](https://github.com/nkoech/landrest/blob/master/img/gp_arctoolbox.png)
 
 5. Right-click the ArcToolbox window, and click Add Toolbox.
 
-![Add ArcToolbox](https://github.com/nkoech/landrest/blob/master/img/add_toolbox.png)
+	![Add ArcToolbox](https://github.com/nkoech/landrest/blob/master/img/add_toolbox.png)
 
 6. In the Add Toolbox window, click the Connect to Folder icon and navigate to the location of the toolbox. Select the LandREST Tool.tbx file and click Open. The LandREST Toolbox appears in the ArcToolbox window.
 
-![LandREST Toolbox](https://github.com/nkoech/landrest/blob/master/img/landrest_toolbox.png)
+	![LandREST Toolbox](https://github.com/nkoech/landrest/blob/master/img/landrest_toolbox.png)
 
 7. Start using the LandREST Toolbox!
 
-![LandREST tool window](https://github.com/nkoech/landrest/blob/master/img/landrest_window.png)
+	![LandREST tool window](https://github.com/nkoech/landrest/blob/master/img/landrest_window.png)
 
 Now you have it. Other downloads include:
 
-* **[LANDREST Data - ZIP](https://github.com/nkoech/landrest/releases/download/v0.1/LANDREST_Data.zip)
+* **[LANDREST Data - ZIP](https://github.com/nkoech/landrest/releases/download/v0.1/LANDREST_Data.zip)**
 
-* **[Erosion Risk Maps - ZIP](https://github.com/nkoech/landrest/releases/download/v0.1/LANDREST_Maps.zip)
+* **[Erosion Risk Maps - ZIP](https://github.com/nkoech/landrest/releases/download/v0.1/LANDREST_Maps.zip)**
 
-* **[Full Report - PDF](https://github.com/nkoech/landrest/releases/download/v0.1/LANDREST_Report.pdf)
+* **[Full Report - PDF](https://github.com/nkoech/landrest/releases/download/v0.1/LANDREST_Report.pdf)**
 
 ## Contributor
 
 Special thanks to these people who contribute to this project:
 
-* ** Fred Kizito:** Senior Scientist, Soils Research Area - CIAT
-
-* ** Justine Cordingley:** Landscape Modeling Post-doctoral Scientist, Soils Research Area - CIAT
-
-* ** Kennedy Ng'ang'a:** Remote Sensing/GIS Analyst, Soils Research Area/DAPA - CIAT
-
-* ** Koech Nicholas:** Remote Sensing/GIS Analyst, Soils Research Area/DAPA - CIAT
+* **Fred Kizito:** Senior Scientist, Soils Research Area - CIAT
+* **Justine Cordingley:** Landscape Modeling Post-doctoral Scientist, Soils Research Area - CIAT
+* **Kennedy Ng'ang'a:** Remote Sensing/GIS Analyst, Soils Research Area/DAPA - CIATT
+* **Koech Nicholas:** Senior Scientist, Soils Research Area - CIAT
 
 And those who support and enourage us to challenge ourselves to do better and to be better. 
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
-
 
 ## License
 
