@@ -21,19 +21,19 @@ This tool has been successfully tested in ArcMap 10.0/10.1/10.2.
 
 4. Open ArcMap, and click Geoprocessing > ArcToolbox.
 
-		![Geoprocessing > ArcToolbox](https://github.com/nkoech/landrest/blob/master/img/gp_arctoolbox.png)
+	![Geoprocessing > ArcToolbox](https://github.com/nkoech/landrest/blob/master/img/gp_arctoolbox.png)
 
 5. Right-click the ArcToolbox window, and click Add Toolbox.
 
-		![Add ArcToolbox](https://github.com/nkoech/landrest/blob/master/img/add_toolbox.png)
+	![Add ArcToolbox](https://github.com/nkoech/landrest/blob/master/img/add_toolbox.png)
 
 6. In the Add Toolbox window, click the Connect to Folder icon and navigate to the location of the toolbox. Select the LandREST Tool.tbx file and click Open. The LandREST Toolbox appears in the ArcToolbox window.
 
-		![LandREST Toolbox](https://github.com/nkoech/landrest/blob/master/img/landrest_toolbox.png)
+	![LandREST Toolbox](https://github.com/nkoech/landrest/blob/master/img/landrest_toolbox.png)
 
 7. Start using the LandREST Toolbox!
 
-		![LandREST tool window](https://github.com/nkoech/landrest/blob/master/img/landrest_window.png)
+	![LandREST tool window](https://github.com/nkoech/landrest/blob/master/img/landrest_window.png)
 
 Now you have it. Other downloads include:
 
