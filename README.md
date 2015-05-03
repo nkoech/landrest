@@ -45,9 +45,9 @@ Now you have it. Other downloads include:
 
 * [Full Report - PDF](https://github.com/nkoech/landrest/releases/download/v0.1/LANDREST_Report.pdf)
 
-## Contributor
+## Contributors
 
-Special thanks to these people who contribute to this project:
+Special thanks to these people who contributed to this project:
 
 * **Fred Kizito:** Senior Scientist, Soils Research Area - CIAT
 
