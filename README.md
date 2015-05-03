@@ -1,53 +1,73 @@
 LANDREST Tool
 ====================
 
-LANDREST is a land degradation model that can be used to spatially identify locations in an area of interest that are in risk of being degraded. It run as an ArcGIS tool based on the ModelBuilder concepts. The general structure behind it is inspired by the CORINE model with variables derived using the USLE.
-
-LANDREST offers the following products to address soil degradation:
+LANDREST is a land degradation model that can be used to spatially identify locations in an area of interest that are in risk of being degraded. It run as an ArcGIS tool based on the ModelBuilder concepts. The general structure behind it is inspired by the CORINE model with variables derived using the USLE. It offers the following products to address soil degradation:
 
 * **Potential soil erosion risk (PSER):** This is the typical vulnerability of the soil to water erosion without taking into account vegetation cover or land use.
+
 * **Actual soil erosion risk (ASER):** Current risk of erosion under the present land use and vegetation cover conditions. 
+
 * **Soil erosion risk (SER) itself:** This is the present risk of erosion in the area of study under the current human and livestock population distribution.
 
-## Introduction
-
-ArcMap Raster Edit Suite (ARES), previously called ArcMap Raster Editor, is an ArcMap Add-In providing a set of tools in order to improve the convenience of minor raster editing. Its main features include:
-
-It includes two toolbars:
-
-* **Raster Editor** for editing and identifying pixels with given rows and columns.
-
-![Raster Editor](http://haoliangyu.net/images/GIS/ares_editing/eidtor_toolbar.png)
-
-* **Raster Painter** for painting values on the raster layer.
-
-![Raster Painter](http://i59.tinypic.com/25fppig.png)
-
-This addin works in ArcMap 10.0/10.1/10.2, currently not in 10.3. 
+This tool has been fully test and works flawlessly in ArcMap 10.0/10.1/10.2. 
 
 ## Download & Install
 
-* Download the package at [ARES 0.2.1](https://github.com/dz316424/ares/releases/download/v0.2.1/ARES.0.2.1.zip)
+1. Download the [LANDREST 0.1](https://github.com/nkoech/landrest/releases/download/v0.1/LANDREST_0.1.zip) Toolbox
 
-* Unzip the installation file and get into the folder that mathces your ArcMap version.
+2. Move the zip file to the directory where you want to store the toolbox.
  
-* Double-click the *RasterEditor.esriAddIn* and click *Install Add-In* in the wizzard.
+3. Extract the contents of the zip file.
 
-Now you have it. A detailed user guide could be found at [Wiki](https://github.com/dz316424/arcmap-raster-editor/wiki) or my blog articles:
+4. Open ArcMap, and click Geoprocessing > ArcToolbox.
 
-* Raster Editor: ![Editing single pixels of raster layer in ArcMap with just a few clicks](http://haoliangyu.net/editing-single-pixels-of-raster-layer-in-arcmap-with-just-a-few-clicks.html#.VQOzWuFp4S8)
+![Geoprocessing > ArcToolbox](https://github.com/nkoech/landrest/blob/master/img/gp_arctoolbox.png)
 
-* Raster Painter: ![Yet another way to edit your raster layer in ArcMap: Paint on it!](Yet another way to edit your raster layer in ArcMap: Paint on it!)
+5. Right-click the ArcToolbox window, and click Add Toolbox.
 
-In case of possible bugs, it is recommanded to use the .tiff formart as your primary raster file format while using this addin.
+![Add ArcToolbox](https://github.com/nkoech/landrest/blob/master/img/add_toolbox.png)
+
+6. In the Add Toolbox window, click the Connect to Folder icon and navigate to the location of the toolbox. Select the LandREST Tool.tbx file and click Open. The LandREST Toolbox appears in the ArcToolbox window.
+
+![LandREST Toolbox](https://github.com/nkoech/landrest/blob/master/img/landrest_toolbox.png)
+
+7. Start using the LandREST Toolbox!
+
+![LandREST tool window](https://github.com/nkoech/landrest/blob/master/img/landrest_window.png)
+
+Now you have it. Other downloads include:
+
+* **[LANDREST Data - ZIP](https://github.com/nkoech/landrest/releases/download/v0.1/LANDREST_Data.zip)
+
+* **[Erosion Risk Maps - ZIP](https://github.com/nkoech/landrest/releases/download/v0.1/LANDREST_Maps.zip)
+
+* **[Full Report - PDF](https://github.com/nkoech/landrest/releases/download/v0.1/LANDREST_Report.pdf)
 
 ## Contributor
 
 Special thanks to these people who contribute to this project:
 
-* Haoliang Yu
-* Xuan Wang
-* Jian Qing
-* Hancheng Nie
+* ** Fred Kizito:** Senior Scientist, Soils Research Area - CIAT
 
-And those who support and enourage us to continue this project.
+* ** Justine Cordingley:** Landscape Modeling Post-doctoral Scientist, Soils Research Area - CIAT
+
+* ** Kennedy Ng'ang'a:** Remote Sensing/GIS Analyst, Soils Research Area/DAPA - CIAT
+
+* ** Koech Nicholas:** Remote Sensing/GIS Analyst, Soils Research Area/DAPA - CIAT
+
+And those who support and enourage us to challenge ourselves to do better and to be better. 
+
+## Contributing
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
+
+
+## License
+
+LANDREST can be downloaded and used by anyone as long as the author is credited. The tool is intended for use by individuals, governments, NGOs, researchers, communities, and others seeking to address issues related to land degradation.
+
+© 2015 International Center for Tropical Agriculture - [CIAT](http://ciat.cgiar.org/). All rights reserved.
