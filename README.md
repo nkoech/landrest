@@ -55,7 +55,7 @@ Special thanks to these people who contributed to this project:
 
 * **Kennedy Ng'ang'a:** Remote Sensing/GIS Analyst, Soils Research Area/DAPA - CIAT
 
-* **Koech Nicholas:** Senior Scientist, Soils Research Area - CIAT
+* **Koech Nicholas:** Remote Sensing/GIS Analyst, Soils Research Area/DAPA - CIAT
 
 And those who supported and enouraged us to challenge ourselves to do better and to be better. 
 
