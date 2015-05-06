@@ -52,21 +52,21 @@
                                     <li class="dropdown">
                                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">ABOUT <b class="caret"></b></a>
                                         <ul class="dropdown-menu">
-                                            <li><a href="about.html">LANDREST</a></li>
-                                            <li><a href="about.html">THE TEAM</a></li>
-                                            <li><a href="about.html">COPYRIGHT</a></li>
+                                            <li><a href="sites/about.html">LANDREST</a></li>
+                                            <li><a href="sites/about.html">THE TEAM</a></li>
+                                            <li><a href="sites/about.html">COPYRIGHT</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown">
                                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">METHODOLOGY <b class="caret"></b></a>
                                         <ul class="dropdown-menu">
-                                            <li><a href="methodology.html">OVERVIEW</a></li>
-                                            <li><a href="methodology.html">COMPONENTS</a></li>
-                                            <li><a href="methodology.html">FRAMEWORK</a></li>
+                                            <li><a href="sites/methodology.html">OVERVIEW</a></li>
+                                            <li><a href="sites/methodology.html">COMPONENTS</a></li>
+                                            <li><a href="sites/methodology.html">FRAMEWORK</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="download.html">DOWNLOAD</a></li>
-                                    <li><a href="#">CONTACT US</a></li>
+                                    <li><a href="sites/download.html">DOWNLOAD</a></li>
+                                    <li><a href="sites/contact.html">CONTACT US</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -85,8 +85,17 @@
                         <div class="intro-home-body">
                             <p class="lead">Download LANDREST version 0.1, a simple and useful land degradation assessment model developed to run in an ArcGIS environment. You can also access a report describing how LANDREST was created, source data used and map outputs showing areas that are vulnerable to land degradation in Babati district, Tanzania.</p>
                             <p>
-                                <a class="btn btn-large btn-success" title="About the methododlogy" href="methodology.html">About the Methodology <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
+                                <a class="btn btn-large btn-success" title="About the methododlogy" href="sites/methodology.html">About the Methodology <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
                             </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="explore-page">
+                <div class="row">
+                    <div class="col-xs-offset-2 col-xs-8 col-xs-offset-2 col-sm-offset-5 col-sm-2 col-sm-offset-5 col-center-btn">
+                        <div class="explore-page-btn scrollclass">
+                            <a href="#page-content-1-scroll"><img src="img/explore_text_button.png" class="explore_btn" alt="Explore Me"></a>
                         </div>
                     </div>
                 </div>
@@ -95,14 +104,12 @@
     </div>
     <!-- End Intro -->
     <div class="page-content">
-        <div class="page-content-1 page-content-padding">
+        <div id="page-content-1-scroll" class="page-content-1 page-content-padding">
             <div class="container">
-                <div class="row">
+                <div class="row ">
                     <div class="col-sm-4">
                         <div class="page-content-svg">
-                            <object>
-                                <embed src="/img/data_analysis.svg" alt="Data Analysis" style="width: 270px; height: auto;"></embed>
-                            </object>
+                            <img class="img-responsive" src="img/data_analysis.png" alt="Data Analysis" style="width: 270px; height: auto;">
                         </div>
                     </div>
                     <div class="col-sm-8">
@@ -112,7 +119,7 @@
                             <div class="page-content-body">
                                 <p class="lead">Benefit from the simplicity of LANDREST version 0.1 in assessing land degradation in your area of interest.</p>
                                 <p>
-                                    <a class="btn btn-large btn-success" title="Download LandREST v0.1" href="#"><span class="glyphicon glyphicon-save" aria-hidden="true"></span><span class="btn-label"> Download LandREST </span><span class="label label-success label-as-badge">v0.1</span></a>
+                                    <a class="btn btn-large btn-success" title="Download LandREST v0.1" href="https://github.com/nkoech/landrest" target="_blank"><span class="glyphicon glyphicon-save" aria-hidden="true"></span><span class="btn-label"> Download LandREST </span><span class="label label-success label-as-badge">v0.1</span></a>
                                 </p>
                             </div>
                         </div>
@@ -132,7 +139,7 @@
                                 <p class="lead">LANDREST updated map outputs showing soil erosion risk hotspots. All maps and source data available for download.</p>
                                 <p>
                                     <div class="page-content-btn">
-                                        <a class="btn btn-large btn-success" title="Download Maps" href="#"><span class="glyphicon glyphicon-save" aria-hidden="true"></span><span class="btn-label"> Download Maps </span><span class="label label-success label-as-badge">98MB</span></a>
+                                        <a class="btn btn-large btn-success" title="Download Maps" href="https://github.com/nkoech/landrest/releases/download/v0.1/LANDREST_Maps.zip"><span class="glyphicon glyphicon-save" aria-hidden="true"></span><span class="btn-label"> Download Maps </span><span class="label label-success label-as-badge">0.7MB</span></a>
                                     </div>
                                 </p>
                             </div>
@@ -140,9 +147,7 @@
                     </div>
                     <div class="col-sm-4">
                         <div class="page-content-svg">
-                            <object>
-                                <embed src="/img/map_design.svg" alt="Soil Erosion Risk mapping" style="width: 200px; height: auto;"></embed>
-                            </object>
+                            <img class="img-responsive" src="img/map_design.png" alt="Soil Erosion Risk mapping" style="width: 200px; height: auto;">
                         </div>
                     </div>
                 </div>
@@ -154,9 +159,7 @@
                 <div class="row">
                     <div class="col-sm-4">
                         <div class="page-content-svg page-content-inner-padding">
-                            <object>
-                                <embed src="/img/decision_making.svg" alt="Land Restoration" style="width: 300px; height: auto;"></embed>
-                            </object>
+                            <img class="img-responsive" src="img/decision_making.png" alt="Land Restoration" style="width: 300px; height: auto;">
                         </div>
                     </div>
                     <div class="col-sm-8">
@@ -187,9 +190,9 @@
                         </h1>
                         <!-- <p class="copyright-notice text-muted">&copy; 2015. All Rights Resverved.</p> -->
                         <ul class="inline-list text-muted">
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Terms of Use</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="sites/about.html">About</a></li>
+                            <li class="scrollitem"><a href="sites/about.html#copyright" data-target="#copyright">Terms of Use</a></li>
+                            <li><a href="sites/contact.html">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -218,5 +221,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src='js/scrollmenuspy.js'></script>
 </body>
 </html>
