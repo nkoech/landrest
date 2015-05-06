@@ -101,10 +101,10 @@
             <div class="row">
                 <div class="col-md-12">
                     <p>LANDREST assesses soil erosion risk by water by calculating erosion sensitivity index, ranging from one (very low erosion risk) to five (very high erosion risk). However, in order to provide a clear picture of the sensitivity as result of interactions between different biophysical and socio-economic factors, LANDREST offers three gridded soil erosion risk products: </p>
-                    <img src="/img/overview_equation.png" class="img-responsive landrest-product-img" alt="Overview Equation">
+                    <img src="../img/overview_equation.png" class="img-responsive landrest-product-img" alt="Overview Equation">
                     <p>Where <b><em>PSER</em></b> is potential soil erosion risk, <b><em>K</em></b> is soil erodibility, <b><em>R</em></b> is rainfall erosivity, <b><em>LS</em></b> is slope length and steepness, <b><em>ASER</em></b> is actual soil erosion risk and <b><em>SER</em></b> as soil erosion risk.</p>
                     <p class="">The CORINE model and USLE concepts played a big role in the design and development of LANDREST and this can be summarized in a diagram as shown below:</p>
-                    <img src="/img/methodology.png" class="img-responsive landrest-product-img" alt="Methodology diagram">
+                    <img src="../img/methodology.png" class="img-responsive landrest-product-img" alt="Methodology diagram">
                 </div>
             </div>
             <hr>
@@ -124,19 +124,19 @@
                     <h4>Slope Length and Slope Steepness (LS) Factor</h4>
                     <p>The LS factor is one of the most important determinants of soil erosion that affects the total sediment detached, transported and deposited on a site. It is a product of both the slope length (flow accumulation) and steepness (slope) derived from a 90m digital elevation model, calculated to form the topographic factor.</p>
                     <p>To compute the LS factor in GIS, the USPED equation as proposed by Moore and Burch (1986) was used.</p>
-                    <img src="/img/ls_equation.png" class="img-responsive landrest-product-img" alt="LS Equation">
+                    <img src="../img/ls_equation.png" class="img-responsive landrest-product-img" alt="LS Equation">
                     <p>The product of the USPED equation is the LS factor which after reclassification gives a five point scale soil erosion risk map with values ranging from 1 (very low erosion risk) to 5 (very high erosion risk).</p>
                 </div>
                 <div class="col-md-12 page-sub-title">
                     <h4>Rainfall Erosivity (R) Factor</h4>
                     <p>This is the erosive force and intensity of rainfall in a normal year (Goldman et al. 1986). It influences soil erosion by kinetic energy possessed by each raindrop causing detachment and rainfall intensity deposited over a specific time interval.</p>
                     <p>Since this study was based in in East Africa, the standard erosivity index used to derive the R factor was proposed by Moore R. (1979, 147-156) while carrying erosivity studies in Kenya, Uganda and Tanzania. The equation is as follows:</p>
-                    <img src="/img/R_equation_1.png" class="img-responsive landrest-product-img" alt="R Equation">
+                    <img src="../img/R_equation_1.png" class="img-responsive landrest-product-img" alt="R Equation">
                     <p>Where <b><em>R</em></b> is rainfall erosivity (J m<span class=sup>-2</span>) and <b><em>P</em></b> is the mean annual rainfall of the area (mm).</p>
                     <p>To compute seasonal rainfall erosivity using the above equation, monthly rainfall erosivity has to be determined first by multiplying monthly fraction of rainfall distribution in year by annual rainfall erosivity.</p>
-                    <img src="/img/R_equation_2.png" class="img-responsive landrest-product-img" alt="R Monthly Equation">
+                    <img src="../img/R_equation_2.png" class="img-responsive landrest-product-img" alt="R Monthly Equation">
                     <p>Where <b><em>R<span class=sub>m,i</span></em></b>  is the monthly R factor, <b><em>R<span class=sub>year</span></em></b> is the annual R factor while <b><em>Part<span class=sub>i</span></em></b> is the monthly fraction of rainfall distribution in year. <b><em>Part<span class=sub>i</span></em></b> is computed using the following equation:</p>
-                    <img src="/img/R_equation_3.png" class="img-responsive landrest-product-img" alt="R Monthly Equation">
+                    <img src="../img/R_equation_3.png" class="img-responsive landrest-product-img" alt="R Monthly Equation">
                     <p><b><em>P<span class=sub>m,i</span></em></b> is the amount of precipitation for the month <b><em>i</em></b> and <b><em>P<span class=sub>year</span></em></b> is the annual rainfall amount</p>
                     <p>It is then that rainfall erosivity products in each month of the season are added together to get seasonal rainfall erosivity layer. Finally the layer is standardized using the natural breaks classification system by assigning it index values ranging between 1 (very low erosion risk) to 5 (very high erosion risk).</p>
                     <p>In this study monthly gridded TRMM 3B43 precipitation datasets for the short and long rain seasons recorded from August 2009 to July 2010 were used to compute the annual and seasonal R factor.</p>
@@ -178,34 +178,34 @@
                 <div class="col-md-12 page-sub-title">
                     <h4 >Potential Soil Erosion Risk</h4>
                     <p>Potential soil erosion risk refers to the typical vulnerability of the soil to water erosion without taking into account vegetation cover or land use (Commission of the European Communities 1994). In this study, analysis involved multiplication of soil erodibility by rainfall erosivity and slope factor giving a score that represented potential soil erosion risk.</p>
-                    <img src="/img/PSER_equation.png" class="img-responsive landrest-product-img" alt="PSER Equation">
+                    <img src="../img/PSER_equation.png" class="img-responsive landrest-product-img" alt="PSER Equation">
                     <p>Where <b><em>PSER</em></b> is potential soil erosion risk, <b><em>K</em></b> is soil erodibility, <b><em>R</em></b> is rainfall erosivity and <b><em>LS</em></b> as slope length and steepness.</p>
                     <p>The potential soil erosion risk map is then reclassified into five classes ranging from very low potential soil erosion risk to very high potential soil erosion risk.</p>
                     <p>The PSER equation can be transformed into an automated workflow as indicated below using the ArcGIS ModelBuilder. PSER workflow is designed to run in ArcGIS as a tool.</p>
-                    <img src="/img/PSER_Model.png" class="img-responsive landrest-product-img" alt="PSER Model">
+                    <img src="../img/PSER_Model.png" class="img-responsive landrest-product-img" alt="PSER Model">
                 </div>
                 <div class="col-md-12 page-sub-title">
                     <h4 >Actual Soil Erosion Risk</h4>
                     <p>The actual soil erosion risk refers to the current risk of erosion under the present land use and vegetation cover conditions. It is a product of potential soil erosion risk and vegetation cover layer.</p>
-                    <img src="/img/ASER_equation.png" class="img-responsive landrest-product-img" alt="ASER Equation">
+                    <img src="../img/ASER_equation.png" class="img-responsive landrest-product-img" alt="ASER Equation">
                     <p>Where <b><em>ASER</em></b> is the actual soil erosion risk.</p>
                     <p>Just like the potential soil erosion risk layer, the actual soil erosion risk map was reclassified into five classes. The classes showed the actual soil erosion risk ranging from very low actual soil erosion risk to very high actual soil erosion risk.</p>
                     <p>ASER equation is also automated as well using the ArcGIS ModelBuilder into a tool that can be executed in an ArcGIS environment. The following is the automation workflow:</p>
-                    <img src="/img/ASER_Model.png" class="img-responsive landrest-product-img" alt="ASER Model">
+                    <img src="../img/ASER_Model.png" class="img-responsive landrest-product-img" alt="ASER Model">
                 </div>
                 <div class="col-md-12 page-sub-title">
                     <h4 >Soil Erosion Risk</h4>
                     <p>The soil erosion risk relates to the present risk of erosion in the area of study under the current human and livestock population distribution. It is defined as:</p>
-                    <img src="/img/SER_equation.png" class="img-responsive landrest-product-img" alt="SER Equation">
+                    <img src="../img/SER_equation.png" class="img-responsive landrest-product-img" alt="SER Equation">
                     <p>Where <b><em>SER</em></b> is the soil erosion risk.</p>
                     <p>The output of this equation is a soil erosion risk map that is reclassified into five classes for the purposes of making interpretation easy. The index values of the classes ranges from 1 (very low soil erosion risk) to 5 (very high erosion soil risk).</p>
                     <p>Automation of the equation in an executable tool was necessary. This was done using the ArcGIS ModelBuilder.</p>
-                    <img src="/img/SER_Model.png" class="img-responsive landrest-product-img" alt="SER Model">
+                    <img src="../img/SER_Model.png" class="img-responsive landrest-product-img" alt="SER Model">
                 </div>
                 <div class="col-md-12 page-sub-title">
                     <h4 >LANDREST Model</h4>
                     <p>Due to the flexibility of the ArcGIS ModelBuilder and the interdependence of the different soil erosion risk models, PSER, ASER and SER models were combined together to form a single workflow. This workflow is principally the logic and structure that forms LANDREST tool.</p>
-                    <img src="/img/LANDREST_Model.png" class="img-responsive landrest-product-img" alt="LANDREST Model">
+                    <img src="../img/LANDREST_Model.png" class="img-responsive landrest-product-img" alt="LANDREST Model">
                     <p>Just like the individual models, LANDREST tool accepts the same inputs with gridded PSER, ASER and SER as outputs. This outputs would still need to be reclassified.</p>
                 </div>
             </div>
