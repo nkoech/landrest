@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LandREST</title>
+
+    <!-- Bootstrap -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script type="text/javascript">var switchTo5x=true;</script>
+    <![endif]-->
+</head>
+<body>
+    <div id="navigation" class="wrapper navbar-fixed-top">
+        <div class="header-bottom">
+            <div class="container">
+                <nav class="navbar navbar-inverse" id="nav">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle Navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div class="pull-left">
+                            <a class="navbar-brand" href="../index.html">
+                                <h1>
+                                    <span class="brand-land-tp">LAND</span>
+                                    <span class="brand-rest">REST</span>
+                                </h1>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="nav-menu">
+                        <div class="pull-right">
+                            <div class="navbar-collapse collapse">
+                                <ul id="nav-tab" class="nav navbar-nav">
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">ABOUT <b class="caret"></b></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="about.html">LANDREST</a></li>
+                                            <li><a href="about.html">THE TEAM</a></li>
+                                            <li><a href="about.html">COPYRIGHT</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown active">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">METHODOLOGY <b class="caret"></b></a>
+                                        <ul class="dropdown-menu scrollclass">
+                                            <li class="active scrollitem"><a href="#overview">OVERVIEW</a></li>
+                                            <li class="scrollitem"><a href="#landrest-variables">COMPONENTS</a></li>
+                                            <li class="scrollitem"><a href="#landrest-products">FRAMEWORK</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="download.html">DOWNLOAD</a></li>
+                                    <li><a href="contact.html">CONTACT US</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- End Navigation -->
+    <div id="overview" class="intro-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <h1>METHODOLOGY</h1>
+                    <p class="lead text-muted">LANDREST explained!</p>
+                </div>
+                <div class="col-md-3">
+                    <p class="alt-btn-success">
+                        <a class="btn btn-large btn-success" title="Download Full Report (PDF)" href="https://github.com/nkoech/landrest/releases/download/v0.1/LANDREST_Report.pdf"><span class="glyphicon glyphicon-save" aria-hidden="true"></span><span class="btn-label"> Download Full Report </span><span class="label label-success label-as-badge">1.6MB</span></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Intro Block -->
+    <div class="overview-content sub-page-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>OVERVIEW</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p>LANDREST assesses soil erosion risk by water by calculating erosion sensitivity index, ranging from one (very low erosion risk) to five (very high erosion risk). However, in order to provide a clear picture of the sensitivity as result of interactions between different biophysical and socio-economic factors, LANDREST offers three gridded soil erosion risk products: </p>
+                    <img src="../img/overview_equation.png" class="img-responsive landrest-product-img" alt="Overview Equation">
+                    <p>Where <b><em>PSER</em></b> is potential soil erosion risk, <b><em>K</em></b> is soil erodibility, <b><em>R</em></b> is rainfall erosivity, <b><em>LS</em></b> is slope length and steepness, <b><em>ASER</em></b> is actual soil erosion risk and <b><em>SER</em></b> as soil erosion risk.</p>
+                    <p class="">The CORINE model and USLE concepts played a big role in the design and development of LANDREST and this can be summarized in a diagram as shown below:</p>
+                    <img src="../img/methodology.png" class="img-responsive landrest-product-img" alt="Methodology diagram">
+                </div>
+            </div>
+            <hr>
+        </div>
+    </div>
+    <!-- End Overview Content -->
+    <div id="landrest-variables" class="landrest-variables-content sub-page-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>LANDREST COMPONENTS</h3>
+                    <p class="sub-page-content-intro">LANDREST calculates soil erosion risk for each grid cell as the compounded result from the following parameters:</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 page-sub-title">
+                    <h4>Slope Length and Slope Steepness (LS) Factor</h4>
+                    <p>The LS factor is one of the most important determinants of soil erosion that affects the total sediment detached, transported and deposited on a site. It is a product of both the slope length (flow accumulation) and steepness (slope) derived from a 90m digital elevation model, calculated to form the topographic factor.</p>
+                    <p>To compute the LS factor in GIS, the USPED equation as proposed by Moore and Burch (1986) was used.</p>
+                    <img src="../img/ls_equation.png" class="img-responsive landrest-product-img" alt="LS Equation">
+                    <p>The product of the USPED equation is the LS factor which after reclassification gives a five point scale soil erosion risk map with values ranging from 1 (very low erosion risk) to 5 (very high erosion risk).</p>
+                </div>
+                <div class="col-md-12 page-sub-title">
+                    <h4>Rainfall Erosivity (R) Factor</h4>
+                    <p>This is the erosive force and intensity of rainfall in a normal year (Goldman et al. 1986). It influences soil erosion by kinetic energy possessed by each raindrop causing detachment and rainfall intensity deposited over a specific time interval.</p>
+                    <p>Since this study was based in in East Africa, the standard erosivity index used to derive the R factor was proposed by Moore R. (1979, 147-156) while carrying erosivity studies in Kenya, Uganda and Tanzania. The equation is as follows:</p>
+                    <img src="../img/R_equation_1.png" class="img-responsive landrest-product-img" alt="R Equation">
+                    <p>Where <b><em>R</em></b> is rainfall erosivity (J m<span class=sup>-2</span>) and <b><em>P</em></b> is the mean annual rainfall of the area (mm).</p>
+                    <p>To compute seasonal rainfall erosivity using the above equation, monthly rainfall erosivity has to be determined first by multiplying monthly fraction of rainfall distribution in year by annual rainfall erosivity.</p>
+                    <img src="../img/R_equation_2.png" class="img-responsive landrest-product-img" alt="R Monthly Equation">
+                    <p>Where <b><em>R<span class=sub>m,i</span></em></b>  is the monthly R factor, <b><em>R<span class=sub>year</span></em></b> is the annual R factor while <b><em>Part<span class=sub>i</span></em></b> is the monthly fraction of rainfall distribution in year. <b><em>Part<span class=sub>i</span></em></b> is computed using the following equation:</p>
+                    <img src="../img/R_equation_3.png" class="img-responsive landrest-product-img" alt="R Monthly Equation">
+                    <p><b><em>P<span class=sub>m,i</span></em></b> is the amount of precipitation for the month <b><em>i</em></b> and <b><em>P<span class=sub>year</span></em></b> is the annual rainfall amount</p>
+                    <p>It is then that rainfall erosivity products in each month of the season are added together to get seasonal rainfall erosivity layer. Finally the layer is standardized using the natural breaks classification system by assigning it index values ranging between 1 (very low erosion risk) to 5 (very high erosion risk).</p>
+                    <p>In this study monthly gridded TRMM 3B43 precipitation datasets for the short and long rain seasons recorded from August 2009 to July 2010 were used to compute the annual and seasonal R factor.</p>
+                </div>
+                <div class="col-md-12 page-sub-title">
+                    <h4>Soil Erodibility (K) Factor</h4>
+                    <p>Soil erodibility refers to the general susceptibility of the soil to erosion (Commission of the European Communities 1994, 38). It embodies the average long-term soil and soil profile ability to absorb rainfall or resist detachment and transport from surface shear and raindrop impact.</p>
+                    <p>There are a number of basic soil attributes that play quite a huge role in determining the rate of erodibilty and this includes organic matter content, soil texture, soil water storage capacity and soil depth. All these soil characteristics were deduced from the 0.5 x 0.5 degree resolution WISE Harmonized World Soil Database (HWSD).</p>
+                    <p>It was also necessary to reclassify the soil erodibility map into five classes. The classes ranged from very low soil erosion risk to very high soil erosion risk represented by cell values 1 to 5 respectively.</p>
+                </div>
+                <div class="col-md-12 page-sub-title">
+                    <h4>Vegetation Cover</h4>
+                    <p>Soil erosion potential rate is increased if the land surface has very little vegetative cover. Plant and residue cover acts to reduce the impact of erosion by; protecting the soil from rain drops, reducing surface runoff, increasing water infiltration rate, holding the soil together with their root systems and lastly by contributing organic matter content to the soil consequently gluing soil particles together.</p>
+                    <p>The efficiency of vegetation cover in reducing soil erosion varies from one type to the other. Plant and residue that nearly covers the entire land surface with good root system would be scored highly in reducing erosion than say areas with little or no vegetation cover at all. Forests and permanent grass for example fall in this class since there root system grows wide and deep into the soil holding it together while their vegetative matter protects the soil from the raindrops.</p>
+                    <p>Presence and absence of vegetation cover on a land surface is a critical component of slope erosion modeling. Hence this study focused on combining five generalized land use/cover types through addition with maximum value composite (MVC) of seasonal vegetation indices (NDVI) to form a vegetation cover layer. The vegetation cover just like all the other map layers mentioned before was reclassified into five classes with index values of 1 (very low erosion risk) to 5 (very high erosion risk)</p>
+                    <p>In this study, 30m GlobeLand30 image captured in 2010 and ten-day MVC synthesis of SPOT VGT-S10 products captured from October 2009 to May 2010 were used.</p>
+
+                </div>
+                <div class="col-md-12 page-sub-title">
+                    <h4>Population Distribution</h4>
+                    <p>Denudation and compaction of soil through overgrazing, clearance of fragile zones such as forest, grasslands and wetlands, and intensive cropping without application of organic matter and nutrients are some of the human activities that contribute to soil erosion (Roose 1996).</p>
+                    <p>To create a livestock population layer, cattle, goats, sheep, pigs, chickens and ducks population distribution layers were added together. Resampling of human and livestock population distribution layers to an approximate cell size of 25km X 25km followed. This was necessary since an overlay of these two datasets were supposed to be multiplied eventually with a coarse layer that had an estimated cell size of 25km X 25km.</p>
+                    <p>Finally the total population distribution map was computed by adding together resampled human and livestock population distribution layers. Reclassification into five categories was then performed on the map resulting into a layer showing susceptibility of a given pixel to erosion starting from very low susceptibility to very high susceptibility.</p>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </div>
+    <!-- End LANDREST Variables Content -->
+    <div class="landrest-products-content sub-page-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 id="landrest-products">LANDREST FRAMEWORK</h3>
+                    <p class="sub-page-content-intro">A key motivation of the LANDREST framework is to automate the process of generating soil erosion risk outputs. For this purpose, LANDREST utilizes the power of ArcGIS ModelBuilder to put several functions together that accepts and process land degradation factors mentioned above.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 page-sub-title">
+                    <h4 >Potential Soil Erosion Risk</h4>
+                    <p>Potential soil erosion risk refers to the typical vulnerability of the soil to water erosion without taking into account vegetation cover or land use (Commission of the European Communities 1994). In this study, analysis involved multiplication of soil erodibility by rainfall erosivity and slope factor giving a score that represented potential soil erosion risk.</p>
+                    <img src="../img/PSER_equation.png" class="img-responsive landrest-product-img" alt="PSER Equation">
+                    <p>Where <b><em>PSER</em></b> is potential soil erosion risk, <b><em>K</em></b> is soil erodibility, <b><em>R</em></b> is rainfall erosivity and <b><em>LS</em></b> as slope length and steepness.</p>
+                    <p>The potential soil erosion risk map is then reclassified into five classes ranging from very low potential soil erosion risk to very high potential soil erosion risk.</p>
+                    <p>The PSER equation can be transformed into an automated workflow as indicated below using the ArcGIS ModelBuilder. PSER workflow is designed to run in ArcGIS as a tool.</p>
+                    <img src="../img/PSER_Model.png" class="img-responsive landrest-product-img" alt="PSER Model">
+                </div>
+                <div class="col-md-12 page-sub-title">
+                    <h4 >Actual Soil Erosion Risk</h4>
+                    <p>The actual soil erosion risk refers to the current risk of erosion under the present land use and vegetation cover conditions. It is a product of potential soil erosion risk and vegetation cover layer.</p>
+                    <img src="../img/ASER_equation.png" class="img-responsive landrest-product-img" alt="ASER Equation">
+                    <p>Where <b><em>ASER</em></b> is the actual soil erosion risk.</p>
+                    <p>Just like the potential soil erosion risk layer, the actual soil erosion risk map was reclassified into five classes. The classes showed the actual soil erosion risk ranging from very low actual soil erosion risk to very high actual soil erosion risk.</p>
+                    <p>ASER equation is also automated as well using the ArcGIS ModelBuilder into a tool that can be executed in an ArcGIS environment. The following is the automation workflow:</p>
+                    <img src="../img/ASER_Model.png" class="img-responsive landrest-product-img" alt="ASER Model">
+                </div>
+                <div class="col-md-12 page-sub-title">
+                    <h4 >Soil Erosion Risk</h4>
+                    <p>The soil erosion risk relates to the present risk of erosion in the area of study under the current human and livestock population distribution. It is defined as:</p>
+                    <img src="../img/SER_equation.png" class="img-responsive landrest-product-img" alt="SER Equation">
+                    <p>Where <b><em>SER</em></b> is the soil erosion risk.</p>
+                    <p>The output of this equation is a soil erosion risk map that is reclassified into five classes for the purposes of making interpretation easy. The index values of the classes ranges from 1 (very low soil erosion risk) to 5 (very high erosion soil risk).</p>
+                    <p>Automation of the equation in an executable tool was necessary. This was done using the ArcGIS ModelBuilder.</p>
+                    <img src="../img/SER_Model.png" class="img-responsive landrest-product-img" alt="SER Model">
+                </div>
+                <div class="col-md-12 page-sub-title">
+                    <h4 >LANDREST Model</h4>
+                    <p>Due to the flexibility of the ArcGIS ModelBuilder and the interdependence of the different soil erosion risk models, PSER, ASER and SER models were combined together to form a single workflow. This workflow is principally the logic and structure that forms LANDREST tool.</p>
+                    <img src="../img/LANDREST_Model.png" class="img-responsive landrest-product-img" alt="LANDREST Model">
+                    <p>Just like the individual models, LANDREST tool accepts the same inputs with gridded PSER, ASER and SER as outputs. This outputs would still need to be reclassified.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End LANDREST Products Content -->
+    <div class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="left-footer-details">
+                        <h1 class="landrest-logo">
+                            <a href="../index.html">
+                                <span class="brand-land-bt">LAND</span>
+                                <span class="brand-rest">REST</span>
+                            </a>
+                        </h1>
+                        <!-- <p class="copyright-notice text-muted">&copy; 2015. All Rights Resverved.</p> -->
+                        <ul class="inline-list text-muted">
+                            <li><a href="about.html">About</a></li>
+                            <li class="scrollitem"><a href="about.html#copyright" data-target="#copyright">Terms of Use</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="org-logo-details">
+                        <p class="ciat-full text-muted">International Center for Tropical Agriculture</p>
+                        <p class="ciat-full text-muted">Member of the CGIAR Consortium </p>
+                        <p class="copyright-notice text-muted">&copy; 2015. All Rights Resverved.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="org-logo">
+                        <div class="cgiar-logo pull-left">
+                            <a href="http://www.cgiar.org/" target="_blank"><img class="img-responsive" src="../img/logocgiar.png" alt="CIAT"></a>
+                        </div>
+                        <div class="ciat-logo pull-left">
+                            <a href="http://ciat.cgiar.org/" target="_blank"><img class="img-responsive" src="../img/logociat.png" alt="CIAT"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src='../js/scrollmenuspy.js'></script>
+</body>
+</html>
